@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="26" height="25" viewBox="0 0 26 25">
+  <g id="Group_1" data-name="Group 1" transform="translate(-6 -7)">
+    <path id="Cart" d="M8.035,14.044a2.5,2.5,0,0,1-2.418-1.849l-.034-.146-2.1-10.4H.833A.831.831,0,0,1,.005.923L0,.826A.828.828,0,0,1,.736.005L.833,0H4.167a.83.83,0,0,1,.792.57l.024.095.7,3.466H19.166A.83.83,0,0,1,20,5.017l-.013.095-1.335,6.937a2.477,2.477,0,0,1-2.335,1.993l-.149,0H8.035ZM6.016,5.783l1.2,5.944a.832.832,0,0,0,.746.661l.1,0H16.2a.827.827,0,0,0,.791-.564l.025-.094,1.144-5.95Z" transform="translate(6 7)" fill="#00c4be"/>
+    <g id="Group_16" data-name="Group 16" transform="translate(16 16)">
+      <rect id="Rectangle" width="16" height="16" rx="8" fill="#ef3d3d"/>
+      <text id="_2" data-name="2" transform="translate(5 11)" fill="#fff" font-size="10" font-family="Helvetica"><tspan x="0" y="0">2</tspan></text>
+    </g>
+  </g>
+</svg>
