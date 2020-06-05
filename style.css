@@ -1,0 +1,601 @@
+*{
+    border-width: 0;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #FBFBFB;
+}
+
+h1 {
+    text-align: center;
+    font-family: "Play-Bold", sans-serif;
+    padding: 60px 0px;
+    color: #1D2A39;
+    line-height: 1;
+}
+
+h2 {
+    text-align: center;
+    font-family: "Play-Bold", sans-serif;
+    padding: 60px 0px;
+    color: rgba(29, 42, 57, 0.8);
+}
+
+h3 {
+    font-family: "Play-Bold", sans-serif;
+    color: #1D2A39;
+    text-align: left;
+}
+
+h4 {
+    font-family: "Play-Bold", sans-serif;
+    color: rgba(29, 42, 57, 0.8);
+    text-align: center;
+    padding-bottom: 12%;
+}
+
+p {
+    font-family: "DINPro", sans-serif;
+    font-size: 14px;
+    color: black;
+    line-height: 1.5;
+}
+
+.menu{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    font-family: "Play", sans-serif;
+    font-size: 15px;
+    background-color: white;
+    padding: 20px;
+    position: fixed;
+    top: 0px;
+    z-index: +1;
+}
+
+.menu-left{
+    width: 30%;
+    float: left;
+    min-width: 183px;
+}
+
+.menu-centered{
+    width: 40%;
+    float: left;
+    text-align: center;
+}
+
+.menu-centered a{
+    padding: 5px 20px;
+}
+
+.menu-centered{
+    line-height: 1.6;
+}
+
+.menu-right{
+    width: 30%;
+    float: right;
+    min-width:400px
+}
+
+.search-btn{
+    padding: 0px 20px;
+    width: 15%;
+    height: 27px;
+    position: relative;
+    float: left;
+}
+
+.menu .searchbar{
+    font-size: 14px;
+    border:0; 
+    border-bottom: 2px solid #E7E7E7; 
+    height: 30px;
+    box-sizing: border-box; 
+    float: left;
+    min-width: 77px;
+    padding: 5px;
+    width: 77%;
+}
+
+.cart{
+    height: 25px;
+    position: absolute;
+    top: 50%; 
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+
+.menu svg{
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.login{
+    background-color: #00C0BA;
+    font-weight: bold;
+    color: white;
+    padding: 7px 0px;
+    width:48%;
+    text-align: center;
+    float: left;
+    min-width: 55px;
+}
+
+.signup{
+    background-color: white;
+    color: #00C0BA;
+    font-weight: bold;
+    border: 1px solid #00C0BA;
+    float: right;
+    padding: 6px 0px;
+    text-align: center;
+    width: 48%;
+    min-width: 55px;
+}
+
+.right-container-1{
+    width: 44%;
+    float: left;
+    min-height: 30px;
+}
+
+.right-container-2{
+    width: 56%;
+    float: right;
+}
+
+.cart-container {
+    float: left;
+    height: 30px;
+    position: relative;
+    padding: 0;
+    width: 30%;
+    min-width: 28px;
+}
+
+.menu .right-buttons{
+    float: right;
+    width: 70%;
+}
+
+.menu a {
+    color: #1D2A39;
+    text-align: center;
+    text-decoration: none;
+}
+    
+.menu a:link, .menu a:visited {
+    text-decoration: none;
+    color: #1D2A39;
+}
+    
+@media screen and (max-width: 1000px) {
+    .menu{
+        padding: 10px;
+        padding-bottom: 50px;
+    }
+
+    .menu-right{
+        float: left;
+        position: absolute;
+        top: 50%;
+        width: 92.5%;
+        padding: 10px;
+    }
+    .menu-centered{
+        position: relative;
+        left: 0%;
+        width: 100%;
+        padding-left: 10px;
+        /*
+        position: absolute;
+        float: right;
+        left: 190px;
+        width: 60%;
+        padding-left: 10px;
+        */
+    }
+
+    .select .btn {
+        line-height: 1.5;
+    }
+}
+
+
+
+.btn {
+    font-family: "Play", sans-serif;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 0;
+    cursor: pointer;
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: rgb(170, 170, 170);
+    opacity: 1;
+    font-family: 'DINPro', Arial, Helvetica, sans-serif;
+}
+  
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: rgb(170, 170, 170);
+    font-family: 'DINPro', Arial, Helvetica, sans-serif;
+}
+  
+::-ms-input-placeholder { /* Microsoft Edge */
+    color: rgb(170, 170, 170);
+    font-family: 'DINPro', Arial, Helvetica, sans-serif;
+}
+
+
+.btn.login {
+    border: none;
+    background-color: #00C0BA;
+    padding: 15px 15px;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: bold;
+}
+.btn.login a:link {
+    color: white;
+}
+.btn.login a:visited {
+    color: white;
+}
+
+.btn.signup {
+    border: 1px solid #00C0BA;
+    background-color: white;
+    padding: 14px 14px;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: bold;
+    color: #00C0BA;
+}
+.btn.signup a:link {
+    color: #00C0BA;
+}
+.btn.signup a:visited {
+    color: #00C0BA;
+}
+
+.section1 {
+    background-image: url("img/rural-fi-illustration.svg");
+    background-repeat:no-repeat;
+    background-position: center;
+    margin-top: 80px;
+    
+}
+
+.section1.text {
+    width: 450px;
+    /*padding: 170px 140px;*/
+    padding: 150px 10%;
+    background-image: none;
+}
+
+.section1 h1 {
+    padding: 0;
+    text-align: left;
+}
+
+.section1 p {
+    margin-top: 25px;
+    font-family: "DINPro", sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.section1 .btn.select {
+    margin-top: 25px;
+    border: none;
+    background-color: #FFCA29;
+    padding: 25px 25px;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: bold;
+    color: black;
+    box-shadow: 0 0 15px rgba(255, 202, 41, 0.9);
+}
+.btn.select a:link {
+    color: black;
+}
+.btn.select a:visited {
+    color: black;
+}
+
+ul {
+    padding-inline-start: 0px;
+}
+
+.section2 {
+    padding: 30px 10%;
+    padding-bottom: 60px;
+}
+
+.section2 .list-style {
+    text-align: center;
+}
+
+.section2 .list-style h3 {
+    text-align: center;
+}
+
+.section2 h3 {
+    padding: 5px 0px;
+}
+
+.section2 .text-1 {
+    display:list-item;
+}
+
+.section2 ul li {
+    list-style-type: none;
+    display: inline;
+    color: black;
+}
+
+.section2 li:not(:first-child):before {
+    display: inline-block;
+    border-bottom: 30px;
+    padding: 60px 70px;
+    content: "  ";
+    background-image: url("img/divider.svg");
+    background-repeat:no-repeat;
+    background-position: center;
+    margin-left: -40px;
+}
+
+.section2.order {
+    text-align: center;
+    max-width: 220px;
+    display: inline-block;
+    height: 260px;
+    vertical-align:top;
+    margin-left: 0;
+    padding: 0;
+}
+
+.section2.install {
+    text-align: center;
+    max-width: 220px;
+    display: inline-block;
+    height: 260px;
+    vertical-align:top;
+    margin-left: -40px;
+    padding: 0;
+}
+
+.section2.container-2 {
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+    box-sizing: border-box;
+    /*padding: 80px 10%;
+    padding-top: 0;*/
+    padding: 0;
+    position: relative;
+    min-width: 680px;
+}
+
+.plans {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
+}
+
+.plans.sections, .plans.sections-middle {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.plans.sections-middle{
+    padding: 0px 30px;
+}
+
+.plans div {
+    float: left;
+    max-width: 33.3%;
+    padding: 0px 40px;
+    box-sizing: border-box;
+}
+
+.plans p {
+    text-align: left;
+    white-space: pre-line;
+}
+
+.plans img {
+    position: relative;
+    float: left;
+    margin-right: 15px;
+}
+
+.section2 .text-2 {
+    overflow: hidden;
+    max-width: 280px;
+    float: none;
+    padding: 0;
+    border: 0;
+}
+
+.section3 {
+    padding: 0px 10%;
+    margin-bottom: 70px;
+    min-width: 680px;
+}
+.section3 .select {
+    width: 100%;
+    padding: 0;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.section3 .select div {
+    min-width: 170px;
+    text-align: center;
+    border: 1px solid #F2F2F2;
+    border-top: 4px solid #00C0BA;
+    background-color: white;
+}
+
+.section3 h3 {
+    text-align: center;
+    color: #00C4BE;
+    padding-bottom: 10%;
+}
+
+.section3 .select h1 {
+    padding: 0;
+    font-size: 250%;
+}
+
+.section3 .select.plan1 {
+    width: 30%;
+    padding: 35px 35px;
+}
+
+.section3 .select.plan2 {
+    width: 30%;
+    margin: 0 auto;
+    position: relative;
+    padding: 35px 35px;
+}
+
+.section3 .select.plan3 {
+    width: 30%;
+    float: right;
+    padding: 35px 35px;
+}
+
+.select a:link {
+    color: #00C0BA;
+}
+.select a:visited {
+    color: #00C0BA;
+}
+
+.section3 .select .btn {
+    border: 1px solid #00C0BA;
+    background-color: white;
+    width: 100%;
+    height: 50px;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: bold;
+    color: #00C0BA;
+}
+
+.section4 {
+    text-align: center;
+    background-color: white;
+    padding-bottom: 60px;
+}
+
+.section4 h1 {
+    padding: 60px 10%;
+    padding-bottom: 30px;
+}
+
+.section4 p {
+    font-size: 20px;
+    line-height: 1.5;
+    padding: 0px 25%;
+    padding-bottom: 30px;
+}
+
+.section4.searchbar {
+    padding: 0;
+}
+
+.section4.searchbar .search{
+    font-size: 14px;
+    padding: 12px;
+    height: 50px;
+    width: 280px;
+    border-style: solid;
+    border-width: thin;
+    color: #F2F2F2;
+    box-sizing: border-box;
+}
+
+.section4 button {
+    border: none;
+    margin-left: 10px;
+    background-color: #00C0BA;
+    width: 100%;
+    height: 50px;
+    max-width: 130px;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Play-Bold", sans-serif;
+}
+.section4 button a:link {
+    color: white;
+}
+.section4 button a:visited {
+    color: white;
+}
+
+#footer {
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    min-width: 580px;
+}
+
+#footer h4{
+    color: rgba(29, 42, 57, 0.52);
+}
+
+#footer a {
+    font-family: "DINPro", sans-serif;
+    font-size: small;
+    line-height: 2;
+}
+
+#footer .logo{
+    width: 50%;
+    min-width: 90px;
+}
+
+.footer-main {
+    width: 80%;
+    height: 200px;
+    min-width: 400px;
+    vertical-align:top;
+    border-top: 1px solid #E7E7E7;
+    padding: 50px 0px;
+}
+
+.footer-container-1{
+    width: 30%;float: left;height: 180px;box-sizing: border-box;padding: 20px;position: relative;
+}
+
+.footer-container-2{
+    width: 70%;float: left;height: 80px;box-sizing: border-box;padding: 20px;text-align: center;
+}
+
+.footer-container-2 div {
+    float: left;width: 33.3%;
+}
