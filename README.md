@@ -1,2 +1,2 @@
-# web-design-4
-A landing page I designed for Rural-Fi
+# rural-fi homepage
+A home page for Rural-Fi
