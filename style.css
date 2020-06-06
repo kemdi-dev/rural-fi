@@ -485,13 +485,16 @@ ul {
 .section3 .select.plan1 {
     width: 30%;
     padding: 35px 35px;
+    float: left;
 }
 
 .section3 .select.plan2 {
     width: 30%;
-    margin: 0 auto;
     position: relative;
     padding: 35px 35px;
+    float: left;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 .section3 .select.plan3 {
