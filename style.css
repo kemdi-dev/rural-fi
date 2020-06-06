@@ -600,7 +600,7 @@ ul {
     min-width: 400px;
     vertical-align:top;
     border-top: 1px solid #E7E7E7;
-    padding: 50px 0px;
+    padding: 40px 0px;
 }
 
 .footer-container-1{
@@ -619,6 +619,10 @@ ul {
     box-sizing: border-box;
     padding: 20px;
     text-align: center;
+}
+
+.footer-container-2{
+    padding-bottom: 8px;
 }
 
 .footer-container-2 div {
