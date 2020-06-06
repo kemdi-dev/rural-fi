@@ -342,6 +342,8 @@ ul {
 
 .section2 .list-style {
     text-align: center;
+    position: relative;
+    width: 100%;
 }
 
 .section2 .list-style h3 {
