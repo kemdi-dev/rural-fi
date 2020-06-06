@@ -612,6 +612,10 @@ ul {
     position: relative;
 }
 
+.footer-container-1 p{
+    padding-top: 5%;
+}
+
 .footer-container-2{
     width: 70%;
     float: left;
@@ -621,7 +625,7 @@ ul {
     text-align: center;
 }
 
-.footer-container-2{
+.footer-container-2 h4{
     padding-bottom: 8px;
 }
 
