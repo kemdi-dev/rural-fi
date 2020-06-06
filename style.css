@@ -10,7 +10,8 @@ body {
 
 h1 {
     text-align: center;
-    font-family: "Play-Bold", sans-serif;
+    font-family: "Play", sans-serif;
+    font-weight: bold;
     padding: 60px 0px;
     color: #1D2A39;
     line-height: 1;
@@ -18,26 +19,29 @@ h1 {
 
 h2 {
     text-align: center;
-    font-family: "Play-Bold", sans-serif;
+    font-family: "Play", sans-serif;
+    font-weight: bold;
     padding: 60px 0px;
     color: rgba(29, 42, 57, 0.8);
 }
 
 h3 {
-    font-family: "Play-Bold", sans-serif;
+    font-family: "Play", sans-serif;
+    font-weight: bold;
     color: #1D2A39;
     text-align: left;
 }
 
 h4 {
-    font-family: "Play-Bold", sans-serif;
+    font-family: "Play", sans-serif;
+    font-weight: bold;
     color: rgba(29, 42, 57, 0.8);
     text-align: center;
     padding-bottom: 12%;
 }
 
 p {
-    font-family: "DINPro", sans-serif;
+    font-family: "DINPro", Helvetica, Arial, sans-serif;
     font-size: 14px;
     color: black;
     line-height: 1.5;
@@ -85,7 +89,7 @@ p {
 
 .search-btn{
     padding: 0px 20px;
-    width: 15%;
+    width: 13%;
     height: 27px;
     position: relative;
     float: left;
@@ -104,8 +108,15 @@ p {
     width: 77%;
 }
 
+.search-img{
+    position: absolute;
+    top: 55%; 
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+
 .cart{
-    height: 25px;
+    height: 20px;
     position: absolute;
     top: 50%; 
     left:50%;
@@ -547,7 +558,8 @@ ul {
     max-width: 130px;
     cursor: pointer;
     display: inline-block;
-    font-family: "Play-Bold", sans-serif;
+    font-family: "Play", sans-serif;
+    font-weight: bold;
 }
 .section4 button a:link {
     color: white;
