@@ -89,6 +89,7 @@ p {
     height: 27px;
     position: relative;
     float: left;
+    background-color: rgba(255, 255, 255, 0);
 }
 
 .menu .searchbar{
