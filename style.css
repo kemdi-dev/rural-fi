@@ -581,6 +581,7 @@ ul {
 
 #footer h4{
     color: rgba(29, 42, 57, 0.52);
+    padding-bottom: 8px;
 }
 
 #footer a {
@@ -623,10 +624,6 @@ ul {
     box-sizing: border-box;
     padding: 20px;
     text-align: center;
-}
-
-.footer-container-2 h4{
-    padding-bottom: 8px;
 }
 
 .footer-container-2 div {
